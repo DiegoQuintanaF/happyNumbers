@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var a int64 = 1
-	var b int64 = int64(math.Pow(10, 16))
+	var b int64 = int64(math.Pow(10, 6))
 	test := hn.NewHappyNumber()
 	result := test.CountHappyNumbers(a, b)
 
