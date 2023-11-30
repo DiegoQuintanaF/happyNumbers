@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"math"
 
 	"github.com/diegoquinfa/happyNumbers/hn"
 )
 
 func main() {
-	var a int64 = 1
-	var b int64 = int64(math.Pow(10, 6))
+	var a int64
+	var b int64
+
+	fmt.Scanf("%d %d", &a, &b)
 	test := hn.NewHappyNumber()
 	result := test.CountHappyNumbers(a, b)
 
