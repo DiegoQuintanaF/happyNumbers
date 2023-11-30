@@ -2,13 +2,11 @@ package hn
 
 type HappyNumber struct {
 	CalculatedHappyNumbers map[int64]bool
-	calculatedSquereDigits map[int64]int64
 }
 
 func NewHappyNumber() *HappyNumber {
 	return &HappyNumber{
 		CalculatedHappyNumbers: make(map[int64]bool),
-		calculatedSquereDigits: make(map[int64]int64),
 	}
 }
 

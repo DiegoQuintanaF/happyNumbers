@@ -104,3 +104,7 @@ func TestIsHappyNumber(t *testing.T) {
 		}
 	}
 }
+
+func TestCountHappyNumbers(t *testing.T) {
+
+}
